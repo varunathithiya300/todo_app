@@ -1,0 +1,23 @@
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Coiny", sans-serif;
+  color: #234abc;
+}
+
+.fact {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: "Sono";
+}
+
+.tags {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Coiny", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
