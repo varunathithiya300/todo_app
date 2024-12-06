@@ -1,4 +1,4 @@
-# FACTLogger App
+# FACTLogger Application
 My first Full Stack Developer Project
 
 # Roadmap
