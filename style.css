@@ -1,3 +1,5 @@
+/* Block Element - An element that occupies 100% of the space available to the parent */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,7 @@ body {
   background-color: #44403c;
   margin: 10px;
   padding: 16px 16px;
+  text-align: center;
 }
 
 h1 {
@@ -25,6 +28,7 @@ h1 {
   text-align: center;
   font-family: "Coiny", sans-serif;
   color: #fafaf9;
+  background-color: red;
 }
 
 .fact {
@@ -33,7 +37,7 @@ h1 {
   font-family: "Sono";
   color: #fafaf9;
   background-color: #44403c;
-  border: 3px dashed yellow;
+  border: 3px solid white;
   margin: 10px;
   padding: 30px 30px;
 }
@@ -43,6 +47,13 @@ h1 {
   font-size: 14px;
   font-family: "Coiny", sans-serif;
   color: #fafaf9;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-top: 3px; */
+  /* display: block; */
 }
 
 ul {
