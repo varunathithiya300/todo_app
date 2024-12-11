@@ -13,6 +13,15 @@ body {
 
 .header {
   margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .fact-form {
@@ -25,10 +34,10 @@ body {
 h1 {
   font-size: 42px;
   text-transform: uppercase;
-  text-align: center;
+  /* text-align: center; */
   font-family: "Coiny", sans-serif;
   color: #fafaf9;
-  background-color: red;
+  /* background-color: green; */
 }
 
 .fact {
