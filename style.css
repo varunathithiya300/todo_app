@@ -8,25 +8,36 @@
 
 body {
   background-color: #292524;
-  padding: 16px;
+  padding: 48px 64px;
 }
 
 .header {
   margin: 40px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: left;
+  gap: 16px;
+}
+
+.container {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  max-width: auto;
+  background-color: teal;
+}
+
+.button {
+  align-items: left;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 16px;
 }
 
 .fact-form {
   background-color: #44403c;
-  margin: 10px;
+  margin-bottom: 10px;
   padding: 16px 16px;
   text-align: center;
 }
@@ -34,21 +45,29 @@ body {
 h1 {
   font-size: 42px;
   text-transform: uppercase;
-  /* text-align: center; */
   font-family: "Coiny", sans-serif;
   color: #fafaf9;
-  /* background-color: green; */
+}
+
+.vote-buttons {
+  margin-left: auto;
 }
 
 .fact {
   font-size: 20px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.4;
-  font-family: "Sono";
-  color: #fafaf9;
   background-color: #44403c;
-  border: 3px solid white;
-  margin: 10px;
-  padding: 30px 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 16px 24px;
+  letter-spacing: -1px;
+
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .tags {
@@ -61,8 +80,6 @@ h1 {
   padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
-  /* padding-top: 3px; */
-  /* display: block; */
 }
 
 ul {
